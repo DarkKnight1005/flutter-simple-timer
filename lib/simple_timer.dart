@@ -171,11 +171,11 @@ class TimerState extends State<SimpleTimer> with SingleTickerProviderStateMixin 
   @override
   Widget build(BuildContext context) {
     return Container(
-        padding: const EdgeInsets.symmetric(horizontal: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 0),
         child:  Align(
             alignment: FractionalOffset.center,
             child: AspectRatio(
-              aspectRatio: 1.0,
+              aspectRatio: 1.25,
               child: Stack(
                 children: <Widget>[
                   widget.displayProgressIndicator ?
